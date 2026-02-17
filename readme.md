@@ -8,8 +8,8 @@ cd myfirstrepo
 ```bash
 git init
 
-git config --global user.name "sukofkim"
-git config --global user.email "sukofkim@daum.net"
+git config --global user.name "***"
+git config --global user.email "***"
 git config --global --list
 ```
 
@@ -30,7 +30,7 @@ git log
 > github에 Repository 생성 후 아래 수행(저장소 명은 local명과 동일) \
 형식: `git remote add <단축이름> https://github.com/<githubID>/저장소명.git`
 ```
-git remote add origin https://github.com/sukofkim/myfirstrepo.git
+git remote add origin https://github.com/***/myfirstrepo.git
 git remote -v
 ```
 ## 원격 저장소에 저장 git push
@@ -38,7 +38,7 @@ git remote -v
 > - 생성 경로 
 >   - Settings->Develober Settings -> Personal Access tokens -> Generate new token -> Generate token \
 >   - 생성당시 한번만 확인가능하므로 별도 보관 필요
->     - "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"
+>     - "***"
 
 > 형식: git push <저장소명> <브랜치명>
 ```
@@ -50,7 +50,7 @@ git push origin master
 > 저장소명과 동일한 폴더가 생성됨
 
 ```
-git clone https://github.com/sukofkim/myfirstrepo.git
+git clone https://github.com/***/myfirstrepo.git
 ```
 
 ## 원격 저장소 local반영 (다운로드)
@@ -63,7 +63,7 @@ git pull origin master
 > commit number는 `git status`로 확인
 
 ```
-git revert 7787c356b701e2def87747d5fc3d408953b79c39
+git revert ***
 ```
 
 ## Git Branch 관리 명령어
@@ -98,5 +98,5 @@ git revert 7787c356b701e2def87747d5fc3d408953b79c39
 > git branch
 > git push origin :branchtest
 > ```
-
+ 
 
