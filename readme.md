@@ -85,7 +85,6 @@ git revert ***
 ---
 > **Tip:** 브랜치를 생성함과 동시에 이동하고 싶다면 `git checkout -b <branch name>` 또는 `git switch -c <branch name>`을 사용해 보세요!
 
-
 > branch 생성 삭제 예제
 >
 > ``` bash
