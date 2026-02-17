@@ -8,13 +8,8 @@ cd myfirstrepo
 ```bash
 git init
 
-<<<<<<< HEAD
 git config --global user.name "***"
 git config --global user.email "***"
-=======
-git config --global user.name "us***me"
-git config --global user.email "us***me@***.***"
->>>>>>> 0d939f1 (readme add)
 git config --global --list
 ```
 
