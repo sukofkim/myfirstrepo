@@ -8,8 +8,13 @@ cd myfirstrepo
 ```bash
 git init
 
+<<<<<<< HEAD
 git config --global user.name "***"
 git config --global user.email "***"
+=======
+git config --global user.name "us***me"
+git config --global user.email "us***me@***.***"
+>>>>>>> 0d939f1 (readme add)
 git config --global --list
 ```
 
@@ -50,7 +55,7 @@ git push origin master
 > 저장소명과 동일한 폴더가 생성됨
 
 ```
-git clone https://github.com/***/myfirstrepo.git
+git clone https://github.com/****/myfirstrepo.git
 ```
 
 ## 원격 저장소 local반영 (다운로드)
@@ -79,6 +84,7 @@ git revert ***
 
 ---
 > **Tip:** 브랜치를 생성함과 동시에 이동하고 싶다면 `git checkout -b <branch name>` 또는 `git switch -c <branch name>`을 사용해 보세요!
+
 
 > branch 생성 삭제 예제
 >
