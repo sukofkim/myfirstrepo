@@ -1,4 +1,4 @@
-## local 저장소 dir 생성
+## local 저장소 dir 생성 (master branch)
 ```bash
 mkdir myfirstrepo
 cd myfirstrepo
